@@ -243,7 +243,7 @@ export default function LogViewer() {
       {/* Log lines */}
       <div style={{ flex: 1, overflowY: "auto", padding: "8px 0" }}>
         {filtered.length === 0 ? (
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: 300, gap: 16, color: "#333" }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: 300, gap: 16, color: "#383838" }}>
             <div style={{ fontSize: 40 }}>▣</div>
             <div style={{ fontSize: 12, letterSpacing: "0.1em" }}>NO LOGS</div>
             <div style={{ fontSize: 11, color: "#2a2e38" }}>
@@ -253,8 +253,8 @@ export default function LogViewer() {
         ) : filtered.map((log, i) => {
           const s = LEVEL_STYLES[log.level] || LEVEL_STYLES.DEFAULT;
           return (
-            <div key={log.id} style={{ display: "flex", alignItems: "flex-start", gap: 10, padding: "2px 16px", background: i % 2 === 0 ? "transparent" : "rgba(255,255,255,0.012)", borderLeft: `2px solid ${log.level !== "DEFAULT" ? s.badgeText + "33" : "transparent"}` }}>
-              <span style={{ fontSize: 10, color: "#333", whiteSpace: "nowrap", lineHeight: "20px", minWidth: 155 }}>{log.ts}</span>
+            <div key={log.id} style={{ display: "flex", alignItems: "flex-start", gap: 10, padding: "2px 16px", background: i % 2 === 0 ? "transparent" : "rgba(255, 255, 255, 0)", borderLeft: `2px solid ${log.level !== "DEFAULT" ? s.badgeText + "33" : "transparent"}` }}>
+              <span style={{ fontSize: 10, color: "#a39d9d", whiteSpace: "nowrap", lineHeight: "20px", minWidth: 155 }}>{log.ts}</span>
               <span style={{ fontSize: 9, fontWeight: 700, background: s.badge, color: s.badgeText, borderRadius: 2, padding: "2px 5px", letterSpacing: "0.12em", whiteSpace: "nowrap", minWidth: 52, textAlign: "center", alignSelf: "center" }}>
                 {log.level === "DEFAULT" ? "LOG" : log.level}
               </span>

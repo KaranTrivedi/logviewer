@@ -1,12 +1,11 @@
 {
   "name": "logwatch",
   "version": "1.0.0",
-  "description": "LogWatch — real-time stdout viewer",
+  "description": "LogWatch — real-time log file viewer",
   "main": "electron/main.js",
   "scripts": {
     "dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && electron .\"",
-    "build": "vite build && set CSC_IDENTITY_AUTO_DISCOVERY=false && electron-builder",
-    "preview": "electron ."
+    "build": "vite build && electron-builder"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -20,15 +19,19 @@
     "vite": "^5.0.0",
     "wait-on": "^7.2.0"
   },
-"build": {
-  "appId": "com.logwatch.app",
-  "productName": "LogWatch",
-  "directories": { "output": "dist-electron" },
-  "win": {
-    "target": "nsis",
-    "signAndEditExecutable": false
-  },
-  "mac": { "target": "dmg" },
-  "linux": { "target": "AppImage" }
-}
+  "build": {
+    "appId": "com.logwatch.app",
+    "productName": "LogWatch",
+    "asar": false,
+    "files": ["electron/main.js", "electron/preload.js", "dist"],
+    "directories": { "output": "dist-electron", "buildResources": "assets" },
+    "win": {
+      "target": ["nsis", "portable"],
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
 }
