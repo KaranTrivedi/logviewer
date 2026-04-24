@@ -11,12 +11,17 @@ import random
 import time
 import sys
 
+# Custom handler that flushes after each write
+class FlushingFileHandler(logging.FileHandler):
+    def emit(self, record):
+        super().emit(record)
+        self.flush()
+
 logging.basicConfig(
-    filename="logs/app.log",
-    # stream=sys.stdout,
     level=logging.DEBUG,
     format="[%(levelname)s] %(asctime)s — %(name)s: %(message)s",
     datefmt="%H:%M:%S",
+    handlers=[FlushingFileHandler("logs/app.log")]
 )
 
 loggers = [

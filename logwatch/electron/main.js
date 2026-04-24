@@ -4,6 +4,7 @@ const fs   = require("fs");
 
 let mainWindow;
 let watcher = null;
+let pollInterval = null;
 let filePos = 0;
 
 function createWindow() {
@@ -42,6 +43,7 @@ function sendLine(line) {
 
 function stopWatching() {
   if (watcher) { watcher.close(); watcher = null; }
+  if (pollInterval) { clearInterval(pollInterval); pollInterval = null; }
   filePos = 0;
 }
 
@@ -69,9 +71,23 @@ function readNewLines(filePath) {
 }
 
 function startWatcher(filePath) {
+  // Use fs.watch for fast detection, but add polling fallback for reliability on Windows
   watcher = fs.watch(filePath, { persistent: true }, (event) => {
     if (event === "change") readNewLines(filePath);
   });
+
+  // Polling fallback every 500ms to catch changes fs.watch misses (common on Windows)
+  pollInterval = setInterval(() => {
+    try {
+      if (fs.existsSync(filePath)) {
+        const stat = fs.statSync(filePath);
+        if (stat.size > filePos) readNewLines(filePath);
+      }
+    } catch (err) {
+      // Ignore errors during polling
+    }
+  }, 500);
+
   watcher.on("error", (err) => {
     sendLine(`[ERROR] Watcher: ${err.message}`);
     stopWatching();
