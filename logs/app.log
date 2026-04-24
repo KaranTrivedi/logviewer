@@ -1,0 +1,681 @@
+[INFO] 00:41:33 — app.worker: Request handled: GET /api/v1/items — 200 OK (210ms)
+[ERROR] 00:41:34 — app.auth: Database deadlock detected — transaction rolled back
+[DEBUG] 00:41:34 — app.database: Retry 927/3 for task job_8661
+[INFO] 00:41:35 — app.database: User user_841 logged in from 192.168.1.841
+[CRITICAL] 00:41:35 — app.worker: Database primary is unreachable — failover initiated
+[DEBUG] 00:41:37 — app.cache: Worker 955 picked up job job_3569
+[ERROR] 00:41:37 — app.worker: Failed to write to log file: Permission denied
+[INFO] 00:41:38 — app.cache: Uploaded file processed: report_770.csv (770 rows)
+[INFO] 00:41:38 — app.server: Scheduled job 'daily_sync' completed in 214s
+[INFO] 00:41:38 — app.cache: Email sent to user_269@example.com
+[INFO] 00:41:38 — app.database: Email sent to user_414@example.com
+[DEBUG] 00:41:39 — app.auth: Retry 792/3 for task job_3806
+[DEBUG] 00:41:40 — app.database: Worker 195 picked up job job_1295
+[INFO] 00:41:41 — app.cache: Scheduled job 'daily_sync' completed in 912s
+[INFO] 00:41:42 — app.server: Request handled: POST /api/v1/orders — 201 Created (497ms)
+[INFO] 00:41:43 — app.database: Request handled: POST /api/v1/orders — 201 Created (900ms)
+[DEBUG] 00:41:44 — app.server: SQL query executed in 832ms: SELECT * FROM payments WHERE id=832
+[DEBUG] 00:41:44 — app.database: SQL query executed in 598ms: SELECT * FROM payments WHERE id=598
+[WARNING] 00:41:45 — app.worker: Deprecated endpoint /api/v0/users called by client-483
+[INFO] 00:41:45 — app.server: Background task 'cleanup' finished: 789 records deleted
+[INFO] 00:41:46 — app.auth: Server listening on 0.0.0.0:8443
+[INFO] 00:41:46 — app.auth: Email sent to user_138@example.com
+[INFO] 00:41:47 — app.database: Request handled: POST /api/v1/orders — 201 Created (302ms)
+[INFO] 00:41:48 — app.cache: Request handled: GET /api/v1/items — 200 OK (169ms)
+[INFO] 00:41:49 — app.auth: User user_885 logged in from 192.168.1.885
+[INFO] 00:41:49 — app.database: Uploaded file processed: report_736.csv (736 rows)
+[DEBUG] 00:41:50 — app.worker: Retry 785/3 for task job_9440
+[INFO] 00:41:57 — app.cache: Email sent to user_519@example.com
+[INFO] 00:41:57 — app.database: Uploaded file processed: report_769.csv (769 rows)
+[WARNING] 00:41:58 — app.worker: Disk usage at 376% on /dev/sda1
+[DEBUG] 00:41:59 — app.worker: SQL query executed in 257ms: SELECT * FROM payments WHERE id=257
+[INFO] 00:41:59 — app.worker: Background task 'cleanup' finished: 759 records deleted
+[ERROR] 00:42:00 — app.database: Failed to connect to Redis: Connection refused (attempt 797)
+[INFO] 00:42:01 — app.cache: Scheduled job 'daily_sync' completed in 51s
+[INFO] 00:42:01 — app.worker: New connection established: client-339
+[DEBUG] 00:42:02 — app.cache: Heartbeat received from node-947
+[INFO] 00:42:03 — app.worker: Uploaded file processed: report_367.csv (367 rows)
+[INFO] 00:42:04 — app.auth: Request handled: POST /api/v1/orders — 201 Created (732ms)
+[DEBUG] 00:42:05 — app.auth: SQL query executed in 379ms: SELECT * FROM sessions WHERE id=379
+[INFO] 00:42:05 — app.cache: Email sent to user_869@example.com
+[INFO] 00:42:06 — app.cache: Background task 'cleanup' finished: 325 records deleted
+[INFO] 00:42:06 — app.worker: Request handled: POST /api/v1/orders — 201 Created (59ms)
+[INFO] 00:42:08 — app.server: New connection established: client-751
+[DEBUG] 00:42:09 — app.worker: Config reloaded: 130 keys updated
+[INFO] 00:42:09 — app.cache: Scheduled job 'daily_sync' completed in 195s
+[WARNING] 00:42:10 — app.server: Memory usage at 270% — approaching limit
+[ERROR] 00:42:11 — app.server: Failed to connect to Redis: Connection refused (attempt 353)
+[INFO] 00:42:12 — app.database: User user_270 logged in from 192.168.1.270
+[DEBUG] 00:42:12 — app.worker: Config reloaded: 152 keys updated
+[INFO] 00:42:13 — app.database: Email sent to user_849@example.com
+[DEBUG] 00:42:14 — app.cache: Session token refreshed for user_177
+[DEBUG] 00:42:14 — app.cache: SQL query executed in 700ms: SELECT * FROM users WHERE id=700
+[DEBUG] 00:42:15 — app.worker: Session token refreshed for user_935
+[INFO] 00:42:16 — app.worker: User user_443 logged in from 192.168.1.443
+[WARNING] 00:42:16 — app.server: Disk usage at 8% on /dev/sda1
+[INFO] 00:42:17 — app.cache: Email sent to user_375@example.com
+[DEBUG] 00:42:18 — app.auth: SQL query executed in 98ms: SELECT * FROM events WHERE id=98
+[WARNING] 00:42:18 — app.database: Retrying failed request to external service (attempt 92/3)
+[INFO] 00:42:19 — app.cache: Scheduled job 'daily_sync' completed in 325s
+[INFO] 00:42:20 — app.worker: Scheduled job 'daily_sync' completed in 117s
+[WARNING] 00:42:21 — app.database: Deprecated endpoint /api/v0/users called by client-305
+[WARNING] 00:42:22 — app.worker: Rate limit at 890/1000 for IP 10.0.0.890
+[INFO] 00:42:23 — app.worker: Request handled: POST /api/v1/orders — 201 Created (698ms)
+[INFO] 00:42:23 — app.auth: User user_797 logged in from 192.168.1.797
+[INFO] 00:42:24 — app.cache: Email sent to user_129@example.com
+[INFO] 00:42:25 — app.server: Request handled: GET /api/v1/items — 200 OK (81ms)
+[WARNING] 00:42:25 — app.server: Deprecated endpoint /api/v0/users called by client-501
+[DEBUG] 00:42:26 — app.cache: SQL query executed in 967ms: SELECT * FROM orders WHERE id=967
+[DEBUG] 00:42:27 — app.cache: Config reloaded: 660 keys updated
+[WARNING] 00:42:28 — app.server: Disk usage at 952% on /dev/sda1
+[INFO] 00:42:29 — app.server: New connection established: client-492
+[INFO] 00:42:30 — app.database: Background task 'cleanup' finished: 806 records deleted
+[INFO] 00:42:30 — app.server: Email sent to user_236@example.com
+[INFO] 00:42:31 — app.worker: User user_439 logged in from 192.168.1.439
+[DEBUG] 00:42:31 — app.worker: Heartbeat received from node-594
+[DEBUG] 00:42:32 — app.cache: Retry 474/3 for task job_7851
+[DEBUG] 00:42:33 — app.auth: Retry 635/3 for task job_1259
+[WARNING] 00:42:33 — app.worker: Memory usage at 789% — approaching limit
+[DEBUG] 00:42:34 — app.auth: SQL query executed in 52ms: SELECT * FROM orders WHERE id=52
+[DEBUG] 00:42:34 — app.server: Cache hit for key 'cache:users:320' (TTL: 389s remaining)
+[INFO] 00:42:35 — app.server: Request handled: POST /api/v1/orders — 201 Created (947ms)
+[WARNING] 00:42:36 — app.server: Disk usage at 596% on /dev/sda1
+[INFO] 00:42:36 — app.auth: New connection established: client-181
+[INFO] 00:42:37 — app.auth: Request handled: GET /api/v1/items — 200 OK (33ms)
+[INFO] 00:42:38 — app.database: User user_686 logged in from 192.168.1.686
+[INFO] 00:42:38 — app.auth: Request handled: POST /api/v1/orders — 201 Created (987ms)
+[INFO] 00:42:39 — app.server: Request handled: POST /api/v1/orders — 201 Created (500ms)
+[WARNING] 00:42:40 — app.worker: Retrying failed request to external service (attempt 110/3)
+[INFO] 00:42:41 — app.server: Request handled: POST /api/v1/orders — 201 Created (709ms)
+[DEBUG] 00:42:42 — app.worker: Worker 577 picked up job job_7068
+[INFO] 00:42:43 — app.worker: Email sent to user_38@example.com
+[DEBUG] 00:42:43 — app.database: Heartbeat received from node-143
+[DEBUG] 00:42:44 — app.worker: Session token refreshed for user_238
+[DEBUG] 00:42:44 — app.server: SQL query executed in 540ms: SELECT * FROM orders WHERE id=540
+[INFO] 00:42:45 — app.database: Uploaded file processed: report_590.csv (590 rows)
+[INFO] 00:42:45 — app.auth: Server listening on 0.0.0.0:3000
+[INFO] 00:42:46 — app.server: Request handled: GET /api/v1/items — 200 OK (877ms)
+[INFO] 00:42:47 — app.server: New connection established: client-565
+[INFO] 00:42:48 — app.auth: User user_901 logged in from 192.168.1.901
+[INFO] 00:42:48 — app.auth: Background task 'cleanup' finished: 884 records deleted
+[DEBUG] 00:42:49 — app.worker: Retry 339/3 for task job_4825
+[ERROR] 00:42:50 — app.worker: Unhandled exception in worker-727: NullPointerException
+[DEBUG] 00:42:50 — app.auth: Cache hit for key 'cache:orders:103' (TTL: 167s remaining)
+[DEBUG] 00:42:51 — app.server: Heartbeat received from node-417
+[DEBUG] 00:42:52 — app.cache: Heartbeat received from node-79
+[INFO] 00:42:52 — app.auth: Request handled: POST /api/v1/orders — 201 Created (61ms)
+[WARNING] 00:42:53 — app.database: Retrying failed request to external service (attempt 772/3)
+[INFO] 00:42:54 — app.database: Uploaded file processed: report_655.csv (655 rows)
+[DEBUG] 00:42:54 — app.worker: SQL query executed in 863ms: SELECT * FROM events WHERE id=863
+[WARNING] 00:42:55 — app.cache: Slow query detected (200ms): consider adding an index
+[CRITICAL] 00:42:57 — app.cache: Memory exhausted: OOM killer invoked on worker-876
+[INFO] 00:42:57 — app.worker: Scheduled job 'daily_sync' completed in 410s
+[DEBUG] 00:42:57 — app.cache: Worker 454 picked up job job_8971
+[INFO] 00:42:58 — app.cache: New connection established: client-54
+[DEBUG] 00:42:58 — app.auth: Session token refreshed for user_363
+[WARNING] 00:42:59 — app.auth: Slow query detected (823ms): consider adding an index
+[INFO] 00:43:00 — app.cache: Server listening on 0.0.0.0:3000
+[INFO] 00:43:01 — app.worker: New connection established: client-555
+[INFO] 00:43:02 — app.worker: Uploaded file processed: report_5.csv (5 rows)
+[DEBUG] 00:43:03 — app.cache: SQL query executed in 750ms: SELECT * FROM users WHERE id=750
+[DEBUG] 00:43:04 — app.auth: Session token refreshed for user_800
+[DEBUG] 00:43:04 — app.auth: Session token refreshed for user_515
+[INFO] 00:43:05 — app.database: Server listening on 0.0.0.0:8443
+[WARNING] 00:43:06 — app.server: Rate limit at 26/1000 for IP 10.0.0.26
+[INFO] 00:43:06 — app.cache: Uploaded file processed: report_825.csv (825 rows)
+[WARNING] 00:43:07 — app.cache: Slow query detected (555ms): consider adding an index
+[INFO] 00:43:08 — app.worker: New connection established: client-241
+[INFO] 00:43:08 — app.cache: Email sent to user_276@example.com
+[INFO] 00:43:09 — app.server: Uploaded file processed: report_391.csv (391 rows)
+[DEBUG] 00:43:10 — app.worker: SQL query executed in 799ms: SELECT * FROM payments WHERE id=799
+[INFO] 00:43:10 — app.server: User user_825 logged in from 192.168.1.825
+[INFO] 00:43:10 — app.database: Background task 'cleanup' finished: 617 records deleted
+[INFO] 00:43:11 — app.worker: New connection established: client-918
+[WARNING] 00:43:12 — app.worker: Deprecated endpoint /api/v0/users called by client-615
+[INFO] 00:43:12 — app.worker: Uploaded file processed: report_984.csv (984 rows)
+[DEBUG] 00:43:13 — app.database: Cache hit for key 'cache:sessions:36' (TTL: 580s remaining)
+[ERROR] 00:43:14 — app.auth: Unhandled exception in worker-102: NullPointerException
+[DEBUG] 00:43:15 — app.server: Worker 531 picked up job job_4922
+[INFO] 00:43:15 — app.server: Server listening on 0.0.0.0:8443
+[ERROR] 00:43:16 — app.server: Payment gateway timeout after 683ms for order_683
+[INFO] 00:43:17 — app.auth: User user_32 logged in from 192.168.1.32
+[INFO] 00:43:18 — app.worker: Request handled: POST /api/v1/orders — 201 Created (876ms)
+[DEBUG] 00:43:18 — app.cache: Config reloaded: 229 keys updated
+[DEBUG] 00:43:19 — app.cache: Heartbeat received from node-805
+[DEBUG] 00:43:19 — app.cache: Session token refreshed for user_410
+[INFO] 00:43:21 — app.server: New connection established: client-281
+[INFO] 00:43:22 — app.worker: Background task 'cleanup' finished: 165 records deleted
+[DEBUG] 00:43:22 — app.cache: Worker 983 picked up job job_4922
+[INFO] 00:43:23 — app.cache: Background task 'cleanup' finished: 860 records deleted
+[DEBUG] 00:43:24 — app.server: Retry 629/3 for task job_4922
+[ERROR] 00:43:24 — app.worker: Payment gateway timeout after 304ms for order_304
+[ERROR] 00:43:25 — app.worker: Failed to connect to Redis: Connection refused (attempt 329)
+[INFO] 00:43:26 — app.server: Request handled: POST /api/v1/orders — 201 Created (340ms)
+[WARNING] 00:43:27 — app.database: Disk usage at 582% on /dev/sda1
+[INFO] 00:43:28 — app.database: Uploaded file processed: report_278.csv (278 rows)
+[INFO] 00:43:28 — app.worker: Server listening on 0.0.0.0:3000
+[INFO] 00:43:29 — app.database: Scheduled job 'daily_sync' completed in 659s
+[INFO] 00:43:30 — app.cache: Server listening on 0.0.0.0:3000
+[DEBUG] 00:43:31 — app.server: Worker 412 picked up job job_8725
+[INFO] 00:43:32 — app.server: Uploaded file processed: report_83.csv (83 rows)
+[WARNING] 00:43:32 — app.database: Disk usage at 596% on /dev/sda1
+[INFO] 00:43:33 — app.worker: Request handled: POST /api/v1/orders — 201 Created (920ms)
+[INFO] 00:43:33 — app.worker: Background task 'cleanup' finished: 11 records deleted
+[WARNING] 00:43:34 — app.auth: Rate limit at 615/1000 for IP 10.0.0.615
+[INFO] 00:43:35 — app.cache: User user_63 logged in from 192.168.1.63
+[WARNING] 00:43:35 — app.cache: Rate limit at 641/1000 for IP 10.0.0.641
+[INFO] 00:43:36 — app.cache: Server listening on 0.0.0.0:3000
+[INFO] 00:43:36 — app.worker: Server listening on 0.0.0.0:3000
+[INFO] 00:43:36 — app.auth: Scheduled job 'daily_sync' completed in 536s
+[DEBUG] 00:43:37 — app.worker: Session token refreshed for user_363
+[INFO] 00:43:38 — app.cache: New connection established: client-281
+[INFO] 00:43:38 — app.database: Scheduled job 'daily_sync' completed in 874s
+[DEBUG] 00:43:39 — app.auth: SQL query executed in 764ms: SELECT * FROM users WHERE id=764
+[INFO] 00:43:40 — app.worker: Request handled: POST /api/v1/orders — 201 Created (906ms)
+[DEBUG] 00:43:41 — app.auth: Worker 804 picked up job job_3081
+[DEBUG] 00:43:42 — app.worker: Heartbeat received from node-682
+[INFO] 00:43:42 — app.worker: Server listening on 0.0.0.0:8443
+[INFO] 00:43:43 — app.cache: Scheduled job 'daily_sync' completed in 825s
+[INFO] 00:43:44 — app.database: Server listening on 0.0.0.0:8443
+[DEBUG] 00:43:44 — app.auth: Retry 746/3 for task job_8725
+[DEBUG] 00:43:45 — app.auth: Session token refreshed for user_534
+[INFO] 00:43:46 — app.auth: User user_154 logged in from 192.168.1.154
+[DEBUG] 00:43:47 — app.worker: Heartbeat received from node-458
+[DEBUG] 00:43:47 — app.server: Retry 588/3 for task job_8763
+[ERROR] 00:43:48 — app.database: API call to external service returned 503 after 830ms
+[INFO] 00:43:49 — app.database: New connection established: client-222
+[DEBUG] 00:43:49 — app.database: Retry 110/3 for task job_4637
+[INFO] 00:43:50 — app.server: Email sent to user_278@example.com
+[DEBUG] 00:43:51 — app.cache: Cache hit for key 'cache:payments:230' (TTL: 385s remaining)
+[INFO] 00:43:51 — app.worker: Uploaded file processed: report_600.csv (600 rows)
+[DEBUG] 00:43:52 — app.server: Config reloaded: 632 keys updated
+[DEBUG] 00:43:53 — app.server: SQL query executed in 586ms: SELECT * FROM sessions WHERE id=586
+[DEBUG] 00:43:54 — app.cache: Cache hit for key 'cache:users:51' (TTL: 368s remaining)
+[INFO] 00:43:55 — app.auth: User user_673 logged in from 192.168.1.673
+[INFO] 00:43:55 — app.worker: Email sent to user_712@example.com
+[INFO] 00:43:56 — app.database: Server listening on 0.0.0.0:3000
+[DEBUG] 00:43:56 — app.worker: Cache hit for key 'cache:users:27' (TTL: 121s remaining)
+[DEBUG] 00:43:57 — app.server: Heartbeat received from node-485
+[INFO] 00:43:58 — app.server: Server listening on 0.0.0.0:8443
+[INFO] 00:43:58 — app.server: Email sent to user_982@example.com
+[INFO] 00:43:59 — app.cache: Request handled: GET /api/v1/items — 200 OK (836ms)
+[INFO] 00:44:00 — app.worker: Uploaded file processed: report_185.csv (185 rows)
+[ERROR] 00:44:01 — app.database: Failed to write to log file: Permission denied
+[INFO] 00:44:02 — app.server: New connection established: client-623
+[DEBUG] 00:44:03 — app.server: SQL query executed in 32ms: SELECT * FROM products WHERE id=32
+[INFO] 00:44:03 — app.database: Background task 'cleanup' finished: 79 records deleted
+[INFO] 00:44:04 — app.server: Email sent to user_388@example.com
+[INFO] 00:44:05 — app.database: Background task 'cleanup' finished: 545 records deleted
+[WARNING] 00:44:05 — app.auth: Slow query detected (754ms): consider adding an index
+[DEBUG] 00:44:06 — app.database: Worker 308 picked up job job_3081
+[DEBUG] 00:44:06 — app.cache: Retry 342/3 for task job_8971
+[INFO] 00:44:07 — app.auth: Request handled: POST /api/v1/orders — 201 Created (446ms)
+[DEBUG] 00:44:08 — app.worker: Config reloaded: 718 keys updated
+[ERROR] 00:44:09 — app.worker: Email delivery failed for user_11@example.com: SMTP error 550
+[CRITICAL] 00:44:09 — app.worker: SSL certificate expires in 477 hours — renewal failed
+[INFO] 00:44:10 — app.database: Server listening on 0.0.0.0:3000
+[DEBUG] 00:44:11 — app.worker: Retry 919/3 for task job_8181
+[INFO] 00:44:11 — app.worker: Server listening on 0.0.0.0:3000
+[DEBUG] 00:44:12 — app.worker: Heartbeat received from node-230
+[ERROR] 00:44:13 — app.auth: Failed to write to log file: Permission denied
+[INFO] 00:44:14 — app.server: Email sent to user_849@example.com
+[DEBUG] 00:44:15 — app.database: Cache hit for key 'cache:sessions:291' (TTL: 187s remaining)
+[DEBUG] 00:44:15 — app.server: SQL query executed in 625ms: SELECT * FROM products WHERE id=625
+[DEBUG] 00:44:16 — app.database: Config reloaded: 105 keys updated
+[WARNING] 00:44:16 — app.cache: Rate limit at 222/1000 for IP 10.0.0.222
+[ERROR] 00:44:17 — app.cache: Unhandled exception in worker-872: NullPointerException
+[DEBUG] 00:44:18 — app.auth: Retry 298/3 for task job_9082
+[INFO] 00:44:19 — app.auth: Server listening on 0.0.0.0:8080
+[DEBUG] 00:44:19 — app.auth: Config reloaded: 169 keys updated
+[WARNING] 00:44:20 — app.server: Rate limit at 893/1000 for IP 10.0.0.893
+[DEBUG] 00:44:20 — app.server: Cache hit for key 'cache:payments:91' (TTL: 696s remaining)
+[WARNING] 00:44:20 — app.server: Retrying failed request to external service (attempt 900/3)
+[ERROR] 00:44:21 — app.cache: Database deadlock detected — transaction rolled back
+[INFO] 00:44:22 — app.server: User user_640 logged in from 192.168.1.640
+[INFO] 00:44:22 — app.worker: New connection established: client-962
+[INFO] 00:44:23 — app.cache: New connection established: client-77
+[INFO] 00:44:24 — app.database: Request handled: POST /api/v1/orders — 201 Created (238ms)
+[WARNING] 00:44:24 — app.server: Deprecated endpoint /api/v0/users called by client-580
+[DEBUG] 00:44:25 — app.cache: Worker 742 picked up job job_8725
+[INFO] 00:44:25 — app.server: Server listening on 0.0.0.0:8080
+[ERROR] 00:44:26 — app.server: Unhandled exception in worker-678: NullPointerException
+[DEBUG] 00:44:27 — app.worker: Config reloaded: 709 keys updated
+[WARNING] 00:44:27 — app.database: Disk usage at 927% on /dev/sda1
+[ERROR] 00:44:27 — app.database: Unhandled exception in worker-390: NullPointerException
+[INFO] 00:44:28 — app.database: Email sent to user_199@example.com
+[INFO] 00:44:29 — app.auth: Email sent to user_20@example.com
+[INFO] 00:44:29 — app.database: Email sent to user_449@example.com
+[INFO] 00:44:30 — app.database: Scheduled job 'daily_sync' completed in 35s
+[INFO] 00:44:31 — app.database: New connection established: client-132
+[ERROR] 00:44:32 — app.cache: Failed to write to log file: Permission denied
+[DEBUG] 00:44:32 — app.cache: Retry 376/3 for task job_8725
+[WARNING] 00:44:33 — app.server: Deprecated endpoint /api/v0/users called by client-775
+[INFO] 00:44:33 — app.auth: User user_779 logged in from 192.168.1.779
+[WARNING] 00:44:34 — app.worker: Slow query detected (634ms): consider adding an index
+[INFO] 00:44:34 — app.auth: Server listening on 0.0.0.0:8443
+[DEBUG] 00:44:35 — app.server: Cache hit for key 'cache:events:19' (TTL: 187s remaining)
+[CRITICAL] 00:44:36 — app.cache: DISK FULL on /dev/sda1 — writes are failing!
+[DEBUG] 00:44:36 — app.database: Session token refreshed for user_92
+[INFO] 00:44:37 — app.auth: User user_38 logged in from 192.168.1.38
+[INFO] 00:44:38 — app.cache: Scheduled job 'daily_sync' completed in 485s
+[WARNING] 00:44:38 — app.server: Memory usage at 598% — approaching limit
+[WARNING] 00:44:39 — app.auth: Rate limit at 730/1000 for IP 10.0.0.730
+[DEBUG] 00:44:40 — app.auth: Retry 441/3 for task job_8181
+[WARNING] 00:44:40 — app.database: Memory usage at 38% — approaching limit
+[DEBUG] 00:44:42 — app.auth: SQL query executed in 461ms: SELECT * FROM products WHERE id=461
+[WARNING] 00:44:42 — app.worker: Deprecated endpoint /api/v0/users called by client-847
+[INFO] 00:44:44 — app.server: Background task 'cleanup' finished: 267 records deleted
+[DEBUG] 00:44:44 — app.database: Session token refreshed for user_471
+[DEBUG] 00:44:45 — app.auth: Heartbeat received from node-887
+[INFO] 00:44:46 — app.worker: Request handled: POST /api/v1/orders — 201 Created (611ms)
+[WARNING] 00:44:47 — app.server: Memory usage at 625% — approaching limit
+[INFO] 00:44:48 — app.database: Server listening on 0.0.0.0:3000
+[DEBUG] 00:44:49 — app.database: Worker 129 picked up job job_4637
+[INFO] 00:44:50 — app.cache: Request handled: GET /api/v1/items — 200 OK (366ms)
+[WARNING] 00:44:51 — app.server: Retrying failed request to external service (attempt 87/3)
+[DEBUG] 00:44:52 — app.server: Retry 575/3 for task job_1259
+[INFO] 00:44:53 — app.worker: Email sent to user_710@example.com
+[DEBUG] 00:44:54 — app.database: SQL query executed in 752ms: SELECT * FROM users WHERE id=752
+[INFO] 00:44:55 — app.cache: User user_103 logged in from 192.168.1.103
+[INFO] 00:44:56 — app.worker: Email sent to user_992@example.com
+[INFO] 00:44:56 — app.database: Server listening on 0.0.0.0:5000
+[WARNING] 00:44:57 — app.database: Disk usage at 939% on /dev/sda1
+[DEBUG] 00:44:58 — app.cache: Worker 650 picked up job job_8763
+[CRITICAL] 00:44:58 — app.server: Security alert: 450 failed login attempts from 192.168.1.450
+[DEBUG] 00:44:59 — app.auth: Retry 595/3 for task job_4825
+[INFO] 00:44:59 — app.cache: Email sent to user_846@example.com
+[INFO] 00:45:00 — app.cache: Background task 'cleanup' finished: 462 records deleted
+[DEBUG] 00:45:00 — app.auth: SQL query executed in 153ms: SELECT * FROM sessions WHERE id=153
+[INFO] 00:45:01 — app.worker: User user_821 logged in from 192.168.1.821
+[INFO] 00:45:02 — app.server: Background task 'cleanup' finished: 356 records deleted
+[DEBUG] 00:45:03 — app.cache: SQL query executed in 703ms: SELECT * FROM orders WHERE id=703
+[WARNING] 00:45:03 — app.server: Memory usage at 788% — approaching limit
+[INFO] 00:45:04 — app.database: User user_754 logged in from 192.168.1.754
+[INFO] 00:45:05 — app.worker: Request handled: GET /api/v1/items — 200 OK (260ms)
+[DEBUG] 00:45:05 — app.server: Session token refreshed for user_368
+[INFO] 00:45:05 — app.auth: Background task 'cleanup' finished: 200 records deleted
+[DEBUG] 00:45:06 — app.auth: SQL query executed in 983ms: SELECT * FROM payments WHERE id=983
+[DEBUG] 00:45:07 — app.database: Session token refreshed for user_250
+[CRITICAL] 00:45:07 — app.server: SSL certificate expires in 506 hours — renewal failed
+[DEBUG] 00:45:09 — app.auth: Heartbeat received from node-245
+[DEBUG] 00:45:09 — app.cache: Worker 550 picked up job job_4825
+[INFO] 00:45:10 — app.database: Uploaded file processed: report_600.csv (600 rows)
+[INFO] 00:45:11 — app.database: Background task 'cleanup' finished: 313 records deleted
+[DEBUG] 00:45:11 — app.server: Retry 162/3 for task job_4825
+[INFO] 00:45:12 — app.auth: New connection established: client-97
+[INFO] 00:45:13 — app.database: Server listening on 0.0.0.0:3000
+[DEBUG] 00:45:14 — app.auth: Cache hit for key 'cache:events:69' (TTL: 92s remaining)
+[WARNING] 00:45:15 — app.worker: Slow query detected (537ms): consider adding an index
+[CRITICAL] 00:45:15 — app.server: SSL certificate expires in 740 hours — renewal failed
+[WARNING] 00:45:16 — app.database: Rate limit at 657/1000 for IP 10.0.0.657
+[INFO] 00:45:17 — app.server: User user_793 logged in from 192.168.1.793
+[ERROR] 00:45:18 — app.database: Failed to connect to Redis: Connection refused (attempt 377)
+[DEBUG] 00:45:18 — app.worker: SQL query executed in 988ms: SELECT * FROM events WHERE id=988
+[ERROR] 00:45:19 — app.cache: Failed to connect to Redis: Connection refused (attempt 459)
+[INFO] 00:45:20 — app.auth: Request handled: GET /api/v1/items — 200 OK (792ms)
+[INFO] 00:45:21 — app.database: Uploaded file processed: report_70.csv (70 rows)
+[ERROR] 00:45:21 — app.server: API call to external service returned 503 after 135ms
+[INFO] 00:45:22 — app.cache: Scheduled job 'daily_sync' completed in 51s
+[WARNING] 00:45:22 — app.auth: Deprecated endpoint /api/v0/users called by client-781
+[INFO] 00:45:23 — app.auth: Email sent to user_957@example.com
+[INFO] 00:45:24 — app.server: Background task 'cleanup' finished: 211 records deleted
+[INFO] 00:45:25 — app.cache: Request handled: GET /api/v1/items — 200 OK (923ms)
+[DEBUG] 00:45:26 — app.database: Worker 52 picked up job job_8763
+[WARNING] 00:45:27 — app.server: Slow query detected (998ms): consider adding an index
+[INFO] 00:45:27 — app.database: User user_703 logged in from 192.168.1.703
+[DEBUG] 00:45:28 — app.worker: Worker 465 picked up job job_1259
+[INFO] 00:45:28 — app.worker: Email sent to user_584@example.com
+[DEBUG] 00:45:30 — app.server: Worker 530 picked up job job_7143
+[INFO] 00:45:30 — app.cache: Email sent to user_495@example.com
+[INFO] 00:45:30 — app.server: Email sent to user_32@example.com
+[ERROR] 00:45:31 — app.worker: Email delivery failed for user_126@example.com: SMTP error 550
+[INFO] 00:45:32 — app.cache: Request handled: POST /api/v1/orders — 201 Created (271ms)
+[INFO] 00:45:32 — app.auth: Email sent to user_400@example.com
+[WARNING] 00:45:33 — app.server: Deprecated endpoint /api/v0/users called by client-177
+[INFO] 00:45:34 — app.auth: Email sent to user_6@example.com
+[DEBUG] 00:45:35 — app.database: Worker 581 picked up job job_8763
+[INFO] 00:45:35 — app.worker: Request handled: GET /api/v1/items — 200 OK (321ms)
+[INFO] 00:45:35 — app.server: Email sent to user_560@example.com
+[INFO] 00:45:36 — app.cache: Email sent to user_51@example.com
+[INFO] 00:45:37 — app.worker: Request handled: GET /api/v1/items — 200 OK (490ms)
+[ERROR] 00:45:38 — app.auth: Database deadlock detected — transaction rolled back
+[WARNING] 00:45:39 — app.database: Memory usage at 756% — approaching limit
+[DEBUG] 00:45:40 — app.auth: Cache hit for key 'cache:orders:340' (TTL: 553s remaining)
+[INFO] 00:45:40 — app.server: Server listening on 0.0.0.0:8443
+[DEBUG] 00:45:41 — app.auth: Worker 65 picked up job job_3081
+[WARNING] 00:45:42 — app.cache: Slow query detected (707ms): consider adding an index
+[INFO] 00:45:42 — app.cache: User user_14 logged in from 192.168.1.14
+[ERROR] 00:45:43 — app.database: Unhandled exception in worker-447: NullPointerException
+[WARNING] 00:45:44 — app.auth: Slow query detected (641ms): consider adding an index
+[ERROR] 00:45:45 — app.worker: Database deadlock detected — transaction rolled back
+[INFO] 00:45:45 — app.worker: User user_648 logged in from 192.168.1.648
+[INFO] 00:45:46 — app.cache: Email sent to user_178@example.com
+[WARNING] 00:45:47 — app.server: Retrying failed request to external service (attempt 254/3)
+[INFO] 00:45:48 — app.database: New connection established: client-67
+[INFO] 00:45:49 — app.cache: Server listening on 0.0.0.0:8443
+[ERROR] 00:45:49 — app.database: API call to external service returned 503 after 99ms
+[WARNING] 00:45:50 — app.auth: Memory usage at 942% — approaching limit
+[INFO] 00:45:50 — app.worker: Email sent to user_709@example.com
+[INFO] 00:45:51 — app.server: Request handled: GET /api/v1/items — 200 OK (525ms)
+[DEBUG] 00:45:51 — app.server: Config reloaded: 914 keys updated
+[WARNING] 00:45:52 — app.auth: Deprecated endpoint /api/v0/users called by client-514
+[ERROR] 00:45:53 — app.worker: Database deadlock detected — transaction rolled back
+[INFO] 00:45:54 — app.server: Request handled: GET /api/v1/items — 200 OK (371ms)
+[INFO] 00:45:55 — app.database: Scheduled job 'daily_sync' completed in 720s
+[INFO] 00:45:55 — app.worker: Request handled: POST /api/v1/orders — 201 Created (599ms)
+[INFO] 00:45:56 — app.cache: New connection established: client-433
+[INFO] 00:45:57 — app.database: Scheduled job 'daily_sync' completed in 511s
+[INFO] 00:45:57 — app.auth: Background task 'cleanup' finished: 254 records deleted
+[INFO] 00:45:57 — app.cache: Email sent to user_265@example.com
+[INFO] 00:45:58 — app.database: Request handled: GET /api/v1/items — 200 OK (511ms)
+[INFO] 00:45:59 — app.server: Uploaded file processed: report_311.csv (311 rows)
+[INFO] 00:45:59 — app.database: Request handled: GET /api/v1/items — 200 OK (503ms)
+[INFO] 00:46:00 — app.cache: Email sent to user_128@example.com
+[ERROR] 00:46:01 — app.worker: Unhandled exception in worker-697: NullPointerException
+[ERROR] 00:46:02 — app.worker: Email delivery failed for user_885@example.com: SMTP error 550
+[INFO] 00:46:02 — app.worker: Server listening on 0.0.0.0:8443
+[INFO] 00:46:03 — app.auth: New connection established: client-472
+[INFO] 00:46:04 — app.server: Request handled: GET /api/v1/items — 200 OK (70ms)
+[INFO] 00:46:04 — app.database: Request handled: GET /api/v1/items — 200 OK (37ms)
+[INFO] 00:46:05 — app.database: Request handled: GET /api/v1/items — 200 OK (695ms)
+[INFO] 00:46:06 — app.auth: Email sent to user_831@example.com
+[ERROR] 00:46:06 — app.server: Email delivery failed for user_816@example.com: SMTP error 550
+[WARNING] 00:46:07 — app.worker: Slow query detected (332ms): consider adding an index
+[WARNING] 00:46:07 — app.auth: Disk usage at 786% on /dev/sda1
+[WARNING] 00:46:07 — app.worker: Connection pool at 344% capacity
+[WARNING] 00:46:08 — app.database: Disk usage at 146% on /dev/sda1
+[INFO] 00:46:09 — app.cache: New connection established: client-256
+[INFO] 00:46:10 — app.cache: New connection established: client-437
+[INFO] 00:46:10 — app.cache: Request handled: POST /api/v1/orders — 201 Created (984ms)
+[DEBUG] 00:46:11 — app.database: Heartbeat received from node-607
+[DEBUG] 00:46:12 — app.server: Session token refreshed for user_989
+[INFO] 00:46:13 — app.auth: Background task 'cleanup' finished: 531 records deleted
+[WARNING] 00:46:13 — app.worker: Connection pool at 952% capacity
+[ERROR] 00:46:14 — app.auth: API call to external service returned 503 after 593ms
+[DEBUG] 00:46:14 — app.auth: Config reloaded: 644 keys updated
+[INFO] 00:46:15 — app.cache: Background task 'cleanup' finished: 313 records deleted
+[DEBUG] 00:46:16 — app.server: Cache hit for key 'cache:sessions:181' (TTL: 569s remaining)
+[DEBUG] 00:46:17 — app.cache: Worker 963 picked up job job_4637
+[INFO] 00:46:18 — app.worker: Background task 'cleanup' finished: 229 records deleted
+[INFO] 00:46:19 — app.database: Scheduled job 'daily_sync' completed in 794s
+[INFO] 00:46:19 — app.auth: New connection established: client-13
+[INFO] 00:46:20 — app.cache: User user_328 logged in from 192.168.1.328
+[ERROR] 00:46:20 — app.worker: Payment gateway timeout after 698ms for order_698
+[DEBUG] 00:46:21 — app.cache: Cache hit for key 'cache:users:15' (TTL: 940s remaining)
+[INFO] 00:46:21 — app.auth: Scheduled job 'daily_sync' completed in 754s
+[INFO] 00:46:22 — app.database: Background task 'cleanup' finished: 376 records deleted
+[INFO] 00:46:22 — app.server: Request handled: GET /api/v1/items — 200 OK (677ms)
+[INFO] 00:46:23 — app.worker: New connection established: client-455
+[INFO] 00:46:24 — app.cache: Email sent to user_403@example.com
+[INFO] 00:46:25 — app.database: Request handled: GET /api/v1/items — 200 OK (703ms)
+[ERROR] 00:46:25 — app.worker: Payment gateway timeout after 459ms for order_459
+[INFO] 00:46:25 — app.worker: Background task 'cleanup' finished: 401 records deleted
+[INFO] 00:46:26 — app.database: Background task 'cleanup' finished: 692 records deleted
+[WARNING] 00:46:28 — app.cache: Connection pool at 909% capacity
+[INFO] 00:46:28 — app.auth: Server listening on 0.0.0.0:5000
+[INFO] 00:46:29 — app.auth: Request handled: GET /api/v1/items — 200 OK (870ms)
+[ERROR] 00:46:30 — app.database: Unhandled exception in worker-202: NullPointerException
+[CRITICAL] 00:46:30 — app.database: DISK FULL on /dev/sda1 — writes are failing!
+[DEBUG] 00:46:30 — app.database: Session token refreshed for user_230
+[INFO] 00:46:31 — app.worker: New connection established: client-114
+[INFO] 00:46:31 — app.server: Request handled: GET /api/v1/items — 200 OK (274ms)
+[INFO] 00:46:32 — app.worker: Background task 'cleanup' finished: 138 records deleted
+[WARNING] 00:46:33 — app.cache: Deprecated endpoint /api/v0/users called by client-325
+[INFO] 00:46:33 — app.database: Background task 'cleanup' finished: 209 records deleted
+[WARNING] 00:46:34 — app.server: Connection pool at 581% capacity
+[DEBUG] 00:46:35 — app.auth: Worker 143 picked up job job_3081
+[INFO] 00:46:36 — app.server: Request handled: POST /api/v1/orders — 201 Created (933ms)
+[DEBUG] 00:46:37 — app.server: SQL query executed in 178ms: SELECT * FROM events WHERE id=178
+[INFO] 00:46:38 — app.worker: Background task 'cleanup' finished: 993 records deleted
+[INFO] 00:46:38 — app.database: Scheduled job 'daily_sync' completed in 453s
+[INFO] 00:46:39 — app.database: User user_232 logged in from 192.168.1.232
+[DEBUG] 00:46:40 — app.auth: Session token refreshed for user_251
+[INFO] 00:46:40 — app.auth: Background task 'cleanup' finished: 633 records deleted
+[INFO] 00:46:41 — app.cache: Request handled: GET /api/v1/items — 200 OK (885ms)
+[INFO] 00:46:42 — app.cache: New connection established: client-516
+[DEBUG] 00:46:42 — app.auth: Session token refreshed for user_691
+[DEBUG] 00:46:42 — app.cache: Retry 885/3 for task job_4825
+[DEBUG] 00:46:43 — app.cache: Heartbeat received from node-453
+[INFO] 00:46:43 — app.worker: Uploaded file processed: report_466.csv (466 rows)
+[DEBUG] 00:46:44 — app.worker: Heartbeat received from node-675
+[DEBUG] 00:46:45 — app.worker: Session token refreshed for user_136
+[INFO] 00:46:46 — app.auth: Background task 'cleanup' finished: 392 records deleted
+[WARNING] 00:46:47 — app.database: Slow query detected (153ms): consider adding an index
+[DEBUG] 00:46:48 — app.server: Session token refreshed for user_68
+[INFO] 00:46:48 — app.database: User user_116 logged in from 192.168.1.116
+[DEBUG] 00:46:49 — app.database: Worker 323 picked up job job_3455
+[WARNING] 00:46:50 — app.auth: Deprecated endpoint /api/v0/users called by client-523
+[INFO] 00:46:50 — app.cache: Scheduled job 'daily_sync' completed in 891s
+[INFO] 00:46:50 — app.server: Request handled: POST /api/v1/orders — 201 Created (969ms)
+[DEBUG] 00:46:51 — app.database: Session token refreshed for user_864
+[DEBUG] 00:46:52 — app.cache: Session token refreshed for user_659
+[DEBUG] 00:46:52 — app.server: Retry 66/3 for task job_7143
+[DEBUG] 00:46:52 — app.database: SQL query executed in 487ms: SELECT * FROM orders WHERE id=487
+[WARNING] 00:46:53 — app.auth: Rate limit at 784/1000 for IP 10.0.0.784
+[INFO] 00:46:54 — app.auth: User user_148 logged in from 192.168.1.148
+[INFO] 00:46:54 — app.worker: User user_870 logged in from 192.168.1.870
+[DEBUG] 00:46:55 — app.server: Cache hit for key 'cache:products:460' (TTL: 561s remaining)
+[WARNING] 00:46:56 — app.server: Connection pool at 643% capacity
+[INFO] 00:46:57 — app.cache: Scheduled job 'daily_sync' completed in 846s
+[DEBUG] 00:46:58 — app.auth: SQL query executed in 540ms: SELECT * FROM users WHERE id=540
+[WARNING] 00:46:59 — app.auth: Disk usage at 810% on /dev/sda1
+[ERROR] 00:47:00 — app.server: Payment gateway timeout after 997ms for order_997
+[ERROR] 00:47:01 — app.server: Failed to write to log file: Permission denied
+[INFO] 00:47:01 — app.server: Request handled: GET /api/v1/items — 200 OK (862ms)
+[INFO] 00:47:02 — app.server: Email sent to user_25@example.com
+[DEBUG] 00:47:03 — app.cache: Config reloaded: 799 keys updated
+[ERROR] 00:47:04 — app.cache: Failed to write to log file: Permission denied
+[CRITICAL] 00:47:04 — app.cache: DISK FULL on /dev/sda1 — writes are failing!
+[WARNING] 00:47:05 — app.database: Connection pool at 400% capacity
+[INFO] 00:47:06 — app.cache: Email sent to user_599@example.com
+[INFO] 00:47:06 — app.worker: Request handled: GET /api/v1/items — 200 OK (386ms)
+[CRITICAL] 00:47:07 — app.worker: Database primary is unreachable — failover initiated
+[INFO] 00:47:08 — app.database: Scheduled job 'daily_sync' completed in 166s
+[DEBUG] 00:47:08 — app.server: Config reloaded: 157 keys updated
+[ERROR] 00:47:08 — app.auth: Email delivery failed for user_508@example.com: SMTP error 550
+[INFO] 00:47:09 — app.auth: Scheduled job 'daily_sync' completed in 883s
+[ERROR] 00:47:10 — app.auth: Email delivery failed for user_654@example.com: SMTP error 550
+[WARNING] 00:47:11 — app.worker: Deprecated endpoint /api/v0/users called by client-227
+[INFO] 00:47:12 — app.cache: Server listening on 0.0.0.0:3000
+[ERROR] 00:47:12 — app.server: Failed to write to log file: Permission denied
+[WARNING] 00:47:13 — app.database: Disk usage at 313% on /dev/sda1
+[DEBUG] 00:47:14 — app.worker: Heartbeat received from node-541
+[ERROR] 00:47:15 — app.worker: Unhandled exception in worker-280: NullPointerException
+[INFO] 00:47:15 — app.worker: Email sent to user_702@example.com
+[INFO] 00:47:15 — app.database: New connection established: client-516
+[INFO] 00:47:16 — app.auth: Request handled: POST /api/v1/orders — 201 Created (41ms)
+[INFO] 00:47:17 — app.auth: Request handled: POST /api/v1/orders — 201 Created (764ms)
+[INFO] 00:47:18 — app.cache: Background task 'cleanup' finished: 564 records deleted
+[WARNING] 00:47:18 — app.worker: Slow query detected (665ms): consider adding an index
+[INFO] 00:47:19 — app.database: Request handled: GET /api/v1/items — 200 OK (61ms)
+[DEBUG] 00:47:20 — app.cache: Config reloaded: 814 keys updated
+[INFO] 00:47:21 — app.database: Uploaded file processed: report_454.csv (454 rows)
+[INFO] 00:47:21 — app.auth: Scheduled job 'daily_sync' completed in 379s
+[INFO] 00:47:22 — app.worker: Scheduled job 'daily_sync' completed in 463s
+[INFO] 00:47:22 — app.auth: Request handled: GET /api/v1/items — 200 OK (805ms)
+[ERROR] 00:47:22 — app.cache: Database deadlock detected — transaction rolled back
+[WARNING] 00:47:23 — app.auth: Connection pool at 42% capacity
+[DEBUG] 00:47:24 — app.auth: Worker 498 picked up job job_3081
+[ERROR] 00:47:24 — app.cache: Email delivery failed for user_345@example.com: SMTP error 550
+[WARNING] 00:47:24 — app.cache: Memory usage at 370% — approaching limit
+[DEBUG] 00:47:25 — app.auth: SQL query executed in 13ms: SELECT * FROM events WHERE id=13
+[INFO] 00:47:26 — app.database: Server listening on 0.0.0.0:3000
+[ERROR] 00:47:27 — app.database: Database deadlock detected — transaction rolled back
+[WARNING] 00:47:28 — app.worker: Memory usage at 161% — approaching limit
+[DEBUG] 00:47:29 — app.worker: Cache hit for key 'cache:payments:377' (TTL: 528s remaining)
+[WARNING] 00:47:29 — app.auth: Connection pool at 890% capacity
+[WARNING] 00:47:30 — app.cache: Disk usage at 694% on /dev/sda1
+[DEBUG] 00:47:30 — app.database: Session token refreshed for user_781
+[WARNING] 00:47:31 — app.worker: Rate limit at 983/1000 for IP 10.0.0.983
+[INFO] 00:47:32 — app.auth: Uploaded file processed: report_312.csv (312 rows)
+[INFO] 00:47:33 — app.auth: User user_930 logged in from 192.168.1.930
+[WARNING] 00:47:33 — app.server: Rate limit at 946/1000 for IP 10.0.0.946
+[INFO] 00:47:34 — app.database: Request handled: GET /api/v1/items — 200 OK (805ms)
+[INFO] 00:47:34 — app.cache: Background task 'cleanup' finished: 601 records deleted
+[INFO] 00:47:35 — app.database: Scheduled job 'daily_sync' completed in 563s
+[INFO] 00:47:35 — app.database: Request handled: POST /api/v1/orders — 201 Created (96ms)
+[INFO] 00:47:36 — app.worker: Uploaded file processed: report_26.csv (26 rows)
+[DEBUG] 00:47:37 — app.cache: Session token refreshed for user_722
+[INFO] 00:47:38 — app.cache: New connection established: client-334
+[INFO] 00:47:39 — app.cache: User user_963 logged in from 192.168.1.963
+[INFO] 00:47:39 — app.server: Email sent to user_464@example.com
+[CRITICAL] 00:47:40 — app.cache: Security alert: 47 failed login attempts from 192.168.1.47
+[INFO] 00:47:40 — app.cache: Server listening on 0.0.0.0:5000
+[INFO] 00:47:41 — app.worker: Scheduled job 'daily_sync' completed in 337s
+[INFO] 00:47:41 — app.worker: Request handled: POST /api/v1/orders — 201 Created (395ms)
+[WARNING] 00:47:42 — app.cache: Deprecated endpoint /api/v0/users called by client-487
+[INFO] 00:47:43 — app.database: Scheduled job 'daily_sync' completed in 243s
+[INFO] 00:47:44 — app.database: New connection established: client-817
+[DEBUG] 00:47:45 — app.server: SQL query executed in 388ms: SELECT * FROM sessions WHERE id=388
+[INFO] 00:47:45 — app.worker: Email sent to user_583@example.com
+[DEBUG] 00:47:45 — app.worker: SQL query executed in 633ms: SELECT * FROM events WHERE id=633
+[DEBUG] 00:47:46 — app.worker: Heartbeat received from node-907
+[CRITICAL] 00:47:47 — app.worker: Memory exhausted: OOM killer invoked on worker-15
+[INFO] 00:47:48 — app.auth: New connection established: client-679
+[INFO] 00:47:48 — app.server: Email sent to user_44@example.com
+[INFO] 00:47:48 — app.database: Uploaded file processed: report_654.csv (654 rows)
+[INFO] 00:47:49 — app.worker: Request handled: POST /api/v1/orders — 201 Created (681ms)
+[DEBUG] 00:47:50 — app.database: Heartbeat received from node-110
+[WARNING] 00:47:51 — app.auth: Connection pool at 646% capacity
+[INFO] 00:47:51 — app.cache: Scheduled job 'daily_sync' completed in 890s
+[INFO] 00:47:53 — app.cache: Email sent to user_23@example.com
+[WARNING] 00:47:53 — app.server: Slow query detected (55ms): consider adding an index
+[DEBUG] 00:47:55 — app.worker: Config reloaded: 150 keys updated
+[INFO] 00:47:55 — app.server: User user_356 logged in from 192.168.1.356
+[INFO] 00:47:56 — app.server: Uploaded file processed: report_640.csv (640 rows)
+[DEBUG] 00:47:56 — app.worker: Heartbeat received from node-895
+[INFO] 00:47:57 — app.cache: Server listening on 0.0.0.0:8080
+[INFO] 00:47:58 — app.server: Request handled: GET /api/v1/items — 200 OK (895ms)
+[WARNING] 00:47:58 — app.auth: Memory usage at 891% — approaching limit
+[DEBUG] 00:47:59 — app.cache: SQL query executed in 548ms: SELECT * FROM sessions WHERE id=548
+[WARNING] 00:48:00 — app.database: Slow query detected (423ms): consider adding an index
+[WARNING] 00:48:00 — app.database: Rate limit at 74/1000 for IP 10.0.0.74
+[INFO] 00:48:01 — app.database: Request handled: POST /api/v1/orders — 201 Created (505ms)
+[WARNING] 00:48:02 — app.cache: Disk usage at 421% on /dev/sda1
+[INFO] 00:48:02 — app.database: Request handled: POST /api/v1/orders — 201 Created (803ms)
+[INFO] 00:48:03 — app.database: New connection established: client-28
+[INFO] 00:48:03 — app.server: Request handled: POST /api/v1/orders — 201 Created (670ms)
+[INFO] 00:48:04 — app.worker: Uploaded file processed: report_505.csv (505 rows)
+[INFO] 00:48:05 — app.database: Server listening on 0.0.0.0:8443
+[INFO] 00:48:06 — app.auth: Background task 'cleanup' finished: 779 records deleted
+[INFO] 00:48:06 — app.worker: New connection established: client-640
+[WARNING] 00:48:07 — app.database: Rate limit at 731/1000 for IP 10.0.0.731
+[DEBUG] 00:48:07 — app.cache: Session token refreshed for user_905
+[ERROR] 00:48:08 — app.server: Failed to write to log file: Permission denied
+[WARNING] 00:48:08 — app.worker: Memory usage at 166% — approaching limit
+[DEBUG] 00:48:09 — app.auth: Config reloaded: 707 keys updated
+[DEBUG] 00:48:10 — app.worker: Worker 959 picked up job job_7851
+[ERROR] 00:48:11 — app.cache: Payment gateway timeout after 651ms for order_651
+[WARNING] 00:48:12 — app.worker: Retrying failed request to external service (attempt 712/3)
+[INFO] 00:48:12 — app.server: Uploaded file processed: report_106.csv (106 rows)
+[INFO] 00:48:13 — app.worker: New connection established: client-514
+[WARNING] 00:48:13 — app.cache: Disk usage at 212% on /dev/sda1
+[INFO] 00:48:14 — app.server: Request handled: POST /api/v1/orders — 201 Created (908ms)
+[DEBUG] 00:48:15 — app.server: SQL query executed in 414ms: SELECT * FROM sessions WHERE id=414
+[DEBUG] 00:48:16 — app.database: Retry 580/3 for task job_8971
+[DEBUG] 00:48:16 — app.auth: Cache hit for key 'cache:users:127' (TTL: 135s remaining)
+[DEBUG] 00:48:17 — app.server: Heartbeat received from node-847
+[INFO] 00:48:17 — app.cache: Scheduled job 'daily_sync' completed in 732s
+[WARNING] 00:48:18 — app.server: Slow query detected (769ms): consider adding an index
+[INFO] 00:48:18 — app.database: Server listening on 0.0.0.0:8080
+[WARNING] 00:48:19 — app.auth: Memory usage at 236% — approaching limit
+[DEBUG] 00:48:19 — app.database: Worker 450 picked up job job_2823
+[DEBUG] 00:48:20 — app.database: SQL query executed in 350ms: SELECT * FROM payments WHERE id=350
+[ERROR] 00:48:21 — app.database: Database deadlock detected — transaction rolled back
+[WARNING] 00:48:21 — app.auth: Memory usage at 657% — approaching limit
+[INFO] 00:48:22 — app.cache: Server listening on 0.0.0.0:8080
+[DEBUG] 00:48:22 — app.worker: SQL query executed in 490ms: SELECT * FROM events WHERE id=490
+[DEBUG] 00:48:23 — app.worker: Cache hit for key 'cache:products:12' (TTL: 112s remaining)
+[DEBUG] 00:48:24 — app.server: SQL query executed in 440ms: SELECT * FROM orders WHERE id=440
+[DEBUG] 00:48:25 — app.cache: Config reloaded: 594 keys updated
+[DEBUG] 00:48:25 — app.auth: Cache hit for key 'cache:sessions:204' (TTL: 635s remaining)
+[DEBUG] 00:48:26 — app.auth: Config reloaded: 100 keys updated
+[INFO] 00:48:27 — app.server: Server listening on 0.0.0.0:3000
+[DEBUG] 00:48:28 — app.auth: Worker 663 picked up job job_7851
+[DEBUG] 00:48:28 — app.cache: Worker 909 picked up job job_2823
+[WARNING] 00:48:29 — app.database: Disk usage at 678% on /dev/sda1
+[DEBUG] 00:48:30 — app.server: Heartbeat received from node-157
+[DEBUG] 00:48:31 — app.server: Retry 635/3 for task job_8971
+[DEBUG] 00:48:31 — app.cache: Session token refreshed for user_52
+[DEBUG] 00:48:31 — app.database: Worker 7 picked up job job_2823
+[DEBUG] 00:48:32 — app.worker: Cache hit for key 'cache:sessions:462' (TTL: 985s remaining)
+[INFO] 00:48:32 — app.auth: Scheduled job 'daily_sync' completed in 218s
+[DEBUG] 00:48:33 — app.database: Heartbeat received from node-750
+[INFO] 00:48:34 — app.cache: Request handled: POST /api/v1/orders — 201 Created (598ms)
+[INFO] 00:48:34 — app.server: Email sent to user_896@example.com
+[DEBUG] 00:48:35 — app.cache: Heartbeat received from node-335
+[DEBUG] 00:48:36 — app.auth: Retry 753/3 for task job_2758
+[INFO] 00:48:36 — app.database: Email sent to user_482@example.com
+[DEBUG] 00:48:37 — app.worker: SQL query executed in 171ms: SELECT * FROM users WHERE id=171
+[INFO] 00:48:38 — app.database: Background task 'cleanup' finished: 519 records deleted
+[WARNING] 00:48:39 — app.cache: Deprecated endpoint /api/v0/users called by client-679
+[INFO] 00:48:39 — app.cache: Request handled: POST /api/v1/orders — 201 Created (228ms)
+[DEBUG] 00:48:40 — app.database: Retry 232/3 for task job_5228
+[INFO] 00:48:41 — app.auth: Background task 'cleanup' finished: 745 records deleted
+[DEBUG] 00:48:42 — app.auth: Cache hit for key 'cache:sessions:81' (TTL: 883s remaining)
+[INFO] 00:48:42 — app.database: New connection established: client-511
+[DEBUG] 00:48:42 — app.cache: Worker 722 picked up job job_8971
+[DEBUG] 00:48:43 — app.auth: Retry 239/3 for task job_4637
+[DEBUG] 00:48:43 — app.auth: Config reloaded: 260 keys updated
+[INFO] 00:48:44 — app.auth: Request handled: GET /api/v1/items — 200 OK (511ms)
+[CRITICAL] 00:48:44 — app.database: Database primary is unreachable — failover initiated
+[INFO] 00:48:45 — app.server: Request handled: GET /api/v1/items — 200 OK (789ms)
+[INFO] 00:48:46 — app.worker: Request handled: GET /api/v1/items — 200 OK (872ms)
+[DEBUG] 00:48:46 — app.cache: Config reloaded: 783 keys updated
+[DEBUG] 00:48:47 — app.cache: Session token refreshed for user_153
+[INFO] 00:48:48 — app.server: Request handled: GET /api/v1/items — 200 OK (727ms)
+[ERROR] 00:48:48 — app.auth: Failed to connect to Redis: Connection refused (attempt 762)
+[DEBUG] 00:48:49 — app.cache: Heartbeat received from node-632
+[INFO] 00:48:50 — app.auth: Server listening on 0.0.0.0:8080
+[INFO] 00:48:50 — app.cache: Uploaded file processed: report_203.csv (203 rows)
+[INFO] 00:48:51 — app.server: Email sent to user_669@example.com
+[DEBUG] 00:48:51 — app.worker: SQL query executed in 671ms: SELECT * FROM users WHERE id=671
+[DEBUG] 00:48:52 — app.worker: Heartbeat received from node-623
+[WARNING] 00:48:53 — app.server: Retrying failed request to external service (attempt 416/3)
+[INFO] 00:48:53 — app.auth: Server listening on 0.0.0.0:5000
+[INFO] 00:48:54 — app.worker: New connection established: client-315
+[INFO] 00:48:55 — app.database: Request handled: POST /api/v1/orders — 201 Created (284ms)
+[DEBUG] 00:48:56 — app.auth: Retry 97/3 for task job_4825
+[DEBUG] 00:48:57 — app.server: Cache hit for key 'cache:orders:267' (TTL: 40s remaining)
+[DEBUG] 00:48:58 — app.worker: Heartbeat received from node-345
+[WARNING] 00:48:58 — app.auth: Connection pool at 636% capacity
+[ERROR] 00:48:59 — app.database: Failed to connect to Redis: Connection refused (attempt 173)
+[INFO] 00:48:59 — app.database: Server listening on 0.0.0.0:5000
+[WARNING] 00:49:00 — app.worker: Deprecated endpoint /api/v0/users called by client-43
+[WARNING] 00:49:01 — app.server: Deprecated endpoint /api/v0/users called by client-33
+[INFO] 00:49:01 — app.worker: Background task 'cleanup' finished: 261 records deleted
+[DEBUG] 00:49:02 — app.database: Worker 928 picked up job job_4637
+[INFO] 00:49:03 — app.cache: Uploaded file processed: report_877.csv (877 rows)
+[INFO] 00:49:03 — app.auth: Scheduled job 'daily_sync' completed in 105s
+[INFO] 00:49:04 — app.auth: Request handled: POST /api/v1/orders — 201 Created (536ms)
+[INFO] 00:49:05 — app.auth: Scheduled job 'daily_sync' completed in 943s
+[INFO] 00:49:06 — app.server: Scheduled job 'daily_sync' completed in 295s
+[DEBUG] 00:49:07 — app.auth: Worker 584 picked up job job_3081
+[DEBUG] 00:49:07 — app.server: Config reloaded: 72 keys updated
+[INFO] 00:49:09 — app.database: Scheduled job 'daily_sync' completed in 609s
+[INFO] 00:49:09 — app.worker: New connection established: client-580
+[WARNING] 00:49:09 — app.database: Retrying failed request to external service (attempt 395/3)
+[DEBUG] 00:49:10 — app.cache: Worker 806 picked up job job_7851
+[INFO] 00:49:10 — app.auth: Server listening on 0.0.0.0:8443
+[WARNING] 00:49:12 — app.cache: Connection pool at 809% capacity
+[INFO] 00:49:12 — app.database: Request handled: POST /api/v1/orders — 201 Created (583ms)
+[INFO] 00:49:12 — app.database: User user_811 logged in from 192.168.1.811
+[INFO] 00:49:14 — app.cache: User user_284 logged in from 192.168.1.284
+[WARNING] 00:49:14 — app.database: Disk usage at 892% on /dev/sda1
+[INFO] 00:49:15 — app.worker: New connection established: client-626
+[INFO] 00:49:16 — app.auth: Uploaded file processed: report_555.csv (555 rows)
+[ERROR] 00:49:17 — app.cache: Email delivery failed for user_960@example.com: SMTP error 550
+[DEBUG] 00:49:18 — app.auth: Worker 219 picked up job job_7851
+[INFO] 00:49:18 — app.server: New connection established: client-787
+[INFO] 00:49:19 — app.auth: User user_890 logged in from 192.168.1.890
+[DEBUG] 00:49:19 — app.cache: SQL query executed in 428ms: SELECT * FROM events WHERE id=428
+[INFO] 00:49:20 — app.database: Request handled: POST /api/v1/orders — 201 Created (743ms)
+[INFO] 00:49:20 — app.server: Scheduled job 'daily_sync' completed in 804s
+[INFO] 00:49:21 — app.cache: Background task 'cleanup' finished: 120 records deleted
+[INFO] 00:49:22 — app.cache: New connection established: client-912
+[INFO] 00:49:22 — app.cache: Request handled: GET /api/v1/items — 200 OK (239ms)
+[DEBUG] 00:49:23 — app.cache: Session token refreshed for user_475
+[DEBUG] 00:49:24 — app.server: Config reloaded: 345 keys updated
+[ERROR] 00:49:24 — app.worker: API call to external service returned 503 after 442ms
+[DEBUG] 00:49:25 — app.database: Retry 316/3 for task job_9082
+[ERROR] 00:49:26 — app.cache: Failed to connect to Redis: Connection refused (attempt 456)
