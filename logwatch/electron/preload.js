@@ -1,4 +1,4 @@
-const { ipcRenderer } = require("electron");
+const { contextBridge, ipcRenderer } = require("electron");
 
 const electronAPI = {
   pickFile: () => ipcRenderer.invoke("file:pick"),
@@ -10,4 +10,4 @@ const electronAPI = {
   removeAllListeners: () => ipcRenderer.removeAllListeners(),
 };
 
-window.electronAPI = electronAPI;
+contextBridge.exposeInMainWorld("electronAPI", electronAPI);
